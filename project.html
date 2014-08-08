@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>team grit | The Project</title>
+		<link rel="stylesheet" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="page">
+
+			<header>
+				<img id="logo" src="img/grit_140x272.png">
+				<nav id="main-menu">
+					<ul>
+						<li class="menu-element">
+							<a href="index.html">
+								<span class="menu-element-text">Home</span>
+							</a>
+						</li>
+						<li class="menu-element menu-element-active">
+							<a href="project.html">
+								<span class="menu-element-text">The Project</span>
+							</a>
+						</li>
+						<li class="menu-element">
+							<a href="team.html">
+								<span class="menu-element-text">Our Team</span>
+							</a>
+						</li>
+						<li class="menu-element">
+							<a href="downloads.html">
+								<span class="menu-element-text">Downloads</span>
+							</a>
+						</li>
+						<li class="menu-element">
+							<a href="contact.html">
+								<span class="menu-element-text">Contact Us</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<div id="content">
+				<h1 id="page-title">Programming Course Submission System</h1>
+				<section>
+					<p>The Programming Course Submission System will help
+					students attending the programming course with their
+					submissions. Experience shows, that solutions for
+					programming assignments are often submitted in a defective
+					state: Files may have been forgotten or the wrong
+					version could be accidentally handed in. Until now tutors
+					had to find these errors themselves and notify students
+					after the assignment deadline. GRIT will check submissions
+					before the deadline for completeness and basic
+					correctness. If some files are missing, the student will be
+					notified. This way the students can rest assured that their
+					submissions are valid, while tutors will save lot of time
+					wasted on fixing trivial mistakes. This way GRIT will
+					improve programming courses for both sides.<br></p>
+					
+					<p>Please check back later for more updates as the project progresses.</p>
+					
+					<p>GRIT will be released on 2014-08-06</p>
+				</section>
+
+				<section>
+					<h2>2014-05-14: We delivered the first prototype!</h2>
+					<p>The first sprint is over and we accomplished to deliver the first prototype. We focused on the parts of the GRIT we will absolutely need for a successful project.</p>
+					<p>This includes the four fundamental parts of the project:</p>
+					<ul>
+						<li>compression of folders to zip-archives and decompression of zip-archives to folders</li>
+						<li>test the submissions with the Java compiler to find errors and warnings</li>
+						<li>test the submissions with provided JUnit tests to get a list of all submissions that don't run correctly or as specified</li>
+						<li>send mails to later inform the students about the status of their submissions</li>
+ 					</ul>
+					<p>All these parts have been successfully implemented and combined to build our first prototype.</p>
+
+					<p>Additionally we delivered our product plan presentation on 2014-05-13. <a href="downloads.html">Download</a> the presentation slides.</p>
+				</section>
+				<section>
+				  <h2>2014-06-03: Second Milestone completed</h2>
+				  <p>The second sprint incorporated the central components of the first sprint into a system that can already acquire data on its own from SVN repositories. Also the results of checking the submissions can now be accessed via a web-backend.</p>
+				  <p>The main advancements during sprint 2 were:</p>
+				  <ul>
+				    <li>Acquisition of submissions from an SVN repository</li>
+				    <li>Construction of a web-backend used for configuration and downloading the results</li>
+				    <li>Internal improvements to data structures to enable parallel checking of submissions</li>
+				  </ul>
+				  <p>All in all GRIT is on time and all core features are working to specification.</p>
+				</section>
+
+				<section>
+				  <h2>2014-06-15: Third Milestone completed</h2>
+				  <p>Our third sprint is done! During this sprint we improved the user interface and added new data sources for submissions. Beyond that many internal improvements were made.
+				  <p>Sprint 3 brought the following additions:</p>
+				  <ul>
+				    <li>ILIAS-Integration: GRIT can now acquire submissions from ILIAS.</li>
+				    <li>Security has been improved by adding encryption routines for password storage.</li>
+				    <li>Scorecards have been overhauled.</li>
+				    <li>PDF generation on Windows has been implemented.</li>
+				    <li>Logging of errors has been added.</li>
+				  </ul>
+				</section>
+				<section>
+				  <h2>2014-07-02: Fourth Milestone completed</h2>
+				  <p>Sprint four introduced additional features that introduce use casey beyonf java submissions</p>
+				  <p>This happened in Sprint 4:</p>
+				  <ul>
+				    <li>The working title GRIT is dropped in favour of GRade IT (GRIT).</li>
+				    <li>GCC can be used to compile submissions. C and C++ submissions are now supported.</li>
+				    <li>GHC can be used to compile submissions. Haskell and literate Haskell submissions are now supported.</li>
+				    <li>Complete submission checking runs with fetching SVN and ILIAS are now possible</li>
+				    <li>Many internal improvements</li>
+				  </ul>
+				  The planned release date still remains on 2014-08-06.
+				</section>
+			</div> <!-- END content -->
+
+			<footer>
+				<div id="footer-text">
+					<p>&copy; 2014 Team GRIT. &nbsp;&nbsp;<a href="about.html">about this website</a></p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

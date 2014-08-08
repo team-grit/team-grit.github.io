@@ -1,0 +1,166 @@
+/*
+ * STAGE
+ */
+
+#subheader-border {
+	width: 13px;
+	height: 140px;
+
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+
+	position: relative;
+	top: -10px;
+
+	float: left;
+
+	background-color: #6681a2;
+}
+
+#subheader {
+	width: 987px;
+	height: 150px;
+
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+	position: relative;
+	top: -10px;
+
+	float: left;
+
+	background-image: url("../img/Subheader01.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+
+	z-index: -1;
+}
+
+
+/*
+ * CONTENT
+ */
+
+#content {
+	width: 960px;
+
+	margin: 0px auto;
+
+	position: relative;
+	top: 20px;
+}
+
+#breadcrumb {
+	width: 940px;
+	height: 20px;
+
+	margin: 10px;
+
+	float: left;
+
+	color: #6f6f6f;
+}
+
+#breadcrumb a {
+	height: 20px;
+
+	margin-right: 4px;
+
+	font-size: 13px;
+	font-weight: normal;
+	color: #6681a2;
+	text-decoration: none;
+}
+
+#breadcrumb span {
+	height: 20px;
+
+	margin-right: 4px;
+}
+
+#normal-col {
+	width: 600px;
+
+	margin: 0px 10px;
+
+	float: left;
+}
+
+#normal-col .normal-col-title-container {
+	width: 600px;
+	height: 30px;
+
+	background-color: #6681a2;
+}
+
+#normal-col .normal-col-title {
+	width: 590px;
+	height: 24px;
+
+	margin: 0px;
+	padding: 0px;
+
+	position: relative;
+	top: 3px;
+	left: 10px;
+
+	text-transform: uppercase;
+}
+
+
+#right-col {
+	width: 280px;
+
+	margin: 0px 10px;
+
+	float: right;
+}
+
+#right-col .right-col-title-container {
+	width: 280px;
+	height: 30px;
+
+	background-color: #6f6f6f;
+}
+
+#right-col .right-col-title {
+	width: 270px;
+	height: 24px;
+
+	margin: 0px;
+	padding: 0px;
+
+	position: relative;
+	top: 3px;
+	left: 10px;
+
+	text-transform: uppercase;
+}
+
+
+
+/*
+ * BACKGROUND
+ */
+
+#background-container-1 {
+	height: 250px;
+
+	background-color: #bababa;
+	background-image: url("../img/background/shadow-1-standard.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#background-layer-1 {
+	height: 250px;
+
+	background-color: #bababa;
+	background-image: url("../img/background/shadow-1-standard.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}

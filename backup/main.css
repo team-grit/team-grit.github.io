@@ -1,0 +1,244 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+	z-index: 10;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 13px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+#page {
+	width: 960px;
+
+	margin: 0px auto;
+
+	position: relative;
+
+	top: 20px;
+}
+
+header {
+	width: 940px;
+	height: 240px;
+
+	margin: 0px 10px;
+
+	background-color: #0f75bc;
+}
+
+#header-left {
+	width: 300px;
+	height: 240px;
+
+	background-color: #ffffff;
+
+	float: left;
+}
+
+#logo {
+	height: 154px;
+	width: 300px;
+
+	margin: 0px;
+	margin-top: 40px;
+
+	background-color: #ffffff;
+
+	float: left;
+}
+
+#header-right {
+}
+
+#teamphoto {
+	height: 200px;
+
+	width: 620px;
+
+	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+	float: right;
+}
+
+#main-menu {
+	width: 550px;
+	height: 40px;
+
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+	padding: 0px;
+
+	display: block;
+	float: right;
+
+	background-color: #0f75bc;
+
+	list-style: none;
+}
+
+
+#main-menu .menu-element {
+	width: 110px;
+
+	margin: 0px;
+
+	display: block;
+	float: left;
+
+
+	background-color: #0f75bc;
+}
+
+#main-menu .menu-element a {
+	width: 109px;
+	height: 40px;
+
+	margin: 0px;
+
+	/*border-top: 1px solid #89a5c9;
+	border-right: 1px solid #445281;
+	/*border-bottom: 1px solid #344251;*/
+	border-left: 1px solid #5482c1; /*#89a5c9;*/
+
+	display: block;
+	float: left;
+
+	font-size: 13px;
+	font-weight: bold;
+	color: #eeeeee;
+	text-decoration: none;
+	text-align: center;
+}
+
+#main-menu .menu-element-active a {
+	/*border-top: 1px solid #4f4f4f;
+	border-right: 1px solid #000000;
+	/*border-bottom: 1px solid #000000;*/
+	border-left: 1px solid #4f4f4f;
+
+	/*background-color: #0f75bc;*/
+
+	background-color: #3a3a3c;
+}
+
+#main-menu .menu-element:hover a {
+	border-left: 1px solid #111111;
+
+	/*background-color: #282828;*/
+
+	background-color: #2a2a2c;
+}
+
+/*#main-menu .menu-element-active:hover {
+	border-top: 1px solid #89a5c9;
+	border-right: 1px solid #344251;
+	border-bottom: 1px solid #344251;
+	border-left: 1px solid #89a5c9;
+
+	background-color: #6681a2;
+}*/
+
+#main-menu .menu-element-text {
+	width: 90px;
+
+	position: relative;
+
+	top: 10px;
+	left: 0px;
+
+	/*opacity: 0.8;*/
+}
+
+#bar-container {
+	width: 960px;
+	height: 40px;
+
+	position: relative;
+
+	margin: 0px;
+}
+
+#bar {
+	width: 20px;
+	height: 40px;
+
+	background-color: #0f75bc;
+
+	margin: 0px;
+
+	position: relative;
+	left: 310px;
+
+	opacity: 0;
+}
+
+#content > * {
+	margin: 8px;
+} 
+
+#page-title-container {
+	width: 940px;
+	height: 40px;
+
+	position: relative;
+	left: 10px;
+/*
+	background-color: #0f75bc;*/
+
+	background-color: #3a3a3c;
+
+	margin: 0px;
+}
+
+#page-title {
+	width: 280px;
+	height: 20px;
+
+	padding: auto;
+
+	border: 10px solid #3a3a3c;
+	background-color: #3a3a3c;
+
+	margin: 0px;
+}
+
+
+footer {
+	width: 960px;
+	margin: 0px auto;
+	padding-top: 6px;
+
+	position: relative;
+	top: 72px;
+	float: left;
+	text-align: center;
+	border-top: 1px solid #3a3a3c;
+}
+
+
+/*
+ * HELPERS
+ */
+
+ #clearer {
+	float: clear;
+ }

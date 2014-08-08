@@ -1,0 +1,212 @@
+#team {
+	width: 940px;
+	height: 696px;
+	padding: 0px;
+}
+
+#team ul.team-nav {
+	width: 976px;
+
+	margin-top: 0px;
+	margin-right: -18px;
+	margin-bottom: 0px;
+	margin-left: -18px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	
+	border: none;
+	display: block;
+	
+	list-style: none;
+	
+	float: left;
+}
+
+#team .team-member {
+	width: 938px;
+	height: 208px;
+	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+	padding: 0px;
+	
+	/*border: 1px solid #7fa6d1;
+	
+	background-color: #eeeeee;*/
+	
+	border: 1px solid #a1cfee; /*blue even lighter*/
+	
+	/*background-color: #badbf1; /*blue very light*/
+	background-color: #ededef; /*grey lighter*/
+
+	clear: left;
+}
+
+#team .team-member-arrow-up {
+	width: 34px;
+	height: 18px;
+	
+	margin-top: -17px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+	padding: 0px;
+	
+	position: absolute;
+	
+	border: none;
+}
+
+#team .team-member-arrow-down {
+	width: 34px;
+	height: 18px;
+	
+	margin-top: 208px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+	padding: 0px;
+	
+	position: absolute;
+	
+	border: none;
+}
+
+#team .team-member-heading {
+	width: 898px;
+	height: 20px;
+
+	margin: 0px;
+	margin-top: 16px;
+	padding: 0px;
+
+	position: relative;
+	left: 20px;
+}
+
+#team .team-member-subheading {
+	width: 898px;
+	height: 20px;
+
+	margin: 0px;
+	margin-top: 8px;
+	padding: 0px;
+
+	position: relative;
+	left: 20px;
+	/*color: #6ea9e4; /*blue lighter*/
+}
+
+#team .team-member-text {
+	width: 580px;
+
+	margin: 0px;
+	margin-top: -2px;
+	padding: 0px;
+
+	position: relative;
+	left: 20px;
+
+	float: left;
+
+	text-align: justify;
+	line-height: 18px;
+}
+
+#team .team-member-contact {
+	width: 290px;
+
+	margin: 0px;
+	margin-top: 8px;
+	padding: 0px;
+
+	position: relative;
+	left: 48px;
+
+	float: left;
+
+	text-align: justify;
+	line-height: 18px;
+}
+
+#team .team-member-contact-heading {
+	width: 290px;
+	height: 20px;
+}
+
+#team .team-member-contact-col-1 {
+	width: 60px;
+
+	margin-top: 8px;
+	padding: 0px;
+
+	display: block;
+	float: left;
+}
+
+#team .team-member-contact-col-2 {
+	width: 230px;
+
+	margin-top: 8px;
+	padding: 0px;
+
+	display: block;
+	float: left;
+}
+
+
+#team .team-nav-element {
+	width: 208px;
+	height: 208px;
+
+	margin: 18px;
+	padding: 0px;
+	
+	position: static;
+	
+	border: none;
+
+	display: block;
+	float: left;
+}
+
+#team .team-nav-element a {
+	width: 206px;
+	height: 206px;
+
+	margin: 0px;
+	padding: 0px;
+
+	border: 1px solid #0f75bc; /*blue from logo*/
+
+	background-color: #ffffff;
+
+	display: block;
+	
+	cursor: pointer;
+}
+
+#team .team-nav-element .team-nav-image {
+	width: 196px;
+	height: 196px;
+
+	margin: 5px;
+	padding: 0px;
+	
+	position: static;
+	
+	border: none;
+
+	display: block;
+	float: left;
+}
+
+#team .team-nav .ui-state-active a {
+}

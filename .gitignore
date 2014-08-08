@@ -1,0 +1,33 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+# Emacs backup files #
+*~
+\#*#
+/bin
+
+# Mac Mist
+*.plist
+*.db
+
+#.class files should not be ignore in testfiles
+!/testfiles/tester/test/*.class
+!/testfiles/tester/tested/*.class
+
+# No logs.
+log/*
+
+#tests
+testfiles/ilias/output/*
+testfiles/preprocess/*
+
+# gradle
+/.gradle/
+/build/
+/log/
+.classpath
+repos/
+.settings/org.eclipse.jdt.core.prefs

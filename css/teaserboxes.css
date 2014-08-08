@@ -1,0 +1,61 @@
+
+#teaserboxes-container {
+	width: 940px;
+	padding-top: 10px;
+}
+
+#teaserboxes-container .teaser-separator {
+	width: 2px;
+	height: 280px;
+
+	margin: 0px 24px;
+
+	float: left;
+
+	background-image: url("../img/teaser-separator.png");
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+#teaserboxes-container .teaserbox {
+	width: 280px;
+	height: 280px;
+
+	float: left;
+}
+
+#teaserboxes-container .teaserbox-title {
+	width: 278px;
+	height: 30px;
+
+	color: #0f75bc;
+}
+
+#teaserboxes-container .teaserbox-image-wrapper {
+	width: 278px;
+	height: 138px;
+
+	margin-top: 15px;
+
+	border: 1px solid #3a3a3c;
+
+	background-color: #ffffff;
+}
+
+#teaserboxes-container .teaserbox-image {
+	width: 268px;
+	height: 128px;
+
+	margin: 5px;
+}
+
+#teaserboxes-container .teaserbox-text {
+	width: 278px;
+	height: 100px;
+
+	margin-top: 15px;
+
+	font-size: 14px;
+	line-height: 18px;
+	text-align: justify;
+}

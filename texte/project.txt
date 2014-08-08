@@ -1,0 +1,10 @@
+﻿For the first prototype we focused on the parts of the PCSS we will absolutely need for this project.
+This includes the four fundamental parts of the project:
+ - compression of folders to zip-archives and decompression of zip-archives to folders
+ - test the submissions with the Java compiler to find errors and warnings
+ - test the submissions with provided JUnit tests to get a list of all submissions that don't run correctly or as specified
+ - send mails to later inform the students about the status of their submissions
+
+All these parts have been successfully implemented and combined to build our first prototype.
+
+Furthermore we delivered our product plan presentation.
