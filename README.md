@@ -1,6 +1,6 @@
-swp-ukn
-=======
+Team GRIT
+=========
 
-Webpage branch:
+Website
 
-Software projekt Somersemster 2014
+Softwareprojekt Somersemster 2014
