@@ -3,4 +3,4 @@ Team GRIT
 
 Website
 
-Softwareprojekt Somersemster 2014
+Softwareprojekt Sommersemster 2014
